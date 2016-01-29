@@ -1,0 +1,30 @@
+html {
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#viewscreen {
+    width:100%;
+    margin:0;
+    padding:0;
+}
+
+#map, #infopane {
+    float;left;
+    margin:0;
+    padding:0;
+    position:absolute !important;
+    height:700px;
+}
+
+#infopane {
+    list-style-type: none;
+}
+
+#map {
+    width:66%;
+}
